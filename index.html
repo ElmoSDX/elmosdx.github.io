@@ -107,7 +107,7 @@
   thehour = datetoday.getHours();
  
   if (thehour > 23) // 00:00 
-  display = "assets/css/twilight.css"
+  display = "assets/css/twilight.css";
   else if (thehour > 17) // 18:00
   display = "assets/css/sunset.css"; 
   else if (thehour > 15) // 16:00
@@ -117,11 +117,9 @@
   else if (thehour > 6) // 7:00
   display = "assets/css/morning.css"; 
   else if (thehour > 3) // 4:00
-  display = "assets/css/sunrise.css"; 
-  else if (thehour > 1) // 2:00
-  display = "assets/css/twilight.css"; 
+  display = "assets/css/sunrise.css";  
   else 
-  display = "assets/css/sunset.css";
+  display = "assets/css/twilight.css";
  
  var css = '<';  css+='link rel="stylesheet" href=' + display + ' \/';  css+='>'; 
   
