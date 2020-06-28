@@ -1,0 +1,81 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/556510715716829224/706213438338105384/unknown.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.blur {
+	background: rgba(68, 57, 33, 0.514); /* Make sure this color has an opacity of less than 1*/
+	backdrop-filter: blur(5px); /* This be the blur*/
+	height: 100vh;
+  width: 100%;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 40vmin;
+  text-align: center;
+  margin: 0vh 0 0vh 0;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-weight: 50;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 4vh;
+}
+
+.mainbox {
+  height: 100vmin;
+}
+
+
+
+.holder {
+  width: 100%;
+  padding: 65px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+button {
+  mix-blend-mode: screen;
+  -webkit-appearance: none;
+  outline: none;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 20px 60px;
+  font-size: 2vh;
+  letter-spacing: 0.25vmin;
+  margin: 3vh 0;
+  transition: all 0.2s;
+  opacity: 0.85;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
