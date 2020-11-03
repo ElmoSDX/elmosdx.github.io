@@ -1,9 +1,14 @@
 body, html {
 
   font-family: 'Ubuntu';
-  background: black;
+  background: rgb(255, 255, 255);
 }
 
+.new-message {
+	position: relative;
+	text-align: center;
+	top: 40vh;
+}
 
  .bgimg-2, .bgimg-3{
   position: relative;
