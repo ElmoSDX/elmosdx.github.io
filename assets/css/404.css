@@ -1,81 +1,105 @@
-*, *:before, *:after {
-  box-sizing: border-box;
+.u-section-1 {
+  background-image: linear-gradient(60deg, rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0)), url("https://cdn.discordapp.com/attachments/556510715716829224/706568434724503582/unknown.png");
 }
 
-body {
-  background-image: url("https://cdn.discordapp.com/attachments/556510715716829224/706213438338105384/unknown.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
 }
 
-.blur {
-	background: rgba(68, 57, 33, 0.514); /* Make sure this color has an opacity of less than 1*/
-	backdrop-filter: blur(5px); /* This be the blur*/
-	height: 100vh;
-  width: 100%;
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-.table {
-  display: table;
-  width: 100%;
+.u-section-1 .u-layout-cell-1 {
+  min-height: 590px;
 }
 
-.table-cell {
-  display: table-cell;
-  vertical-align: middle;
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
 }
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  font-size: 40vmin;
-  text-align: center;
-  margin: 0vh 0 0vh 0;
-  color: rgba(255, 255, 255, 0.7);
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 8.125rem;
+  margin: 29px 107px 0 0;
 }
 
-h2 {
-  font-weight: 50;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 4vh;
+.u-section-1 .u-text-2 {
+  margin: 29px 440px 0 0;
 }
 
-.mainbox {
-  height: 100vmin;
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-style: solid;
+  background-image: none;
+  margin: 29px auto 0 0;
 }
 
+@media (max-width: 1199px) {
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 570px;
+  }
 
+  .u-section-1 .u-text-1 {
+    margin-top: 17px;
+    margin-right: 7px;
+  }
 
-.holder {
-  width: 100%;
-  padding: 65px;
-  margin: 0 auto;
-  text-align: center;
+  .u-section-1 .u-text-2 {
+    margin-top: 0;
+    margin-right: 240px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 20px;
+  }
 }
 
+@media (max-width: 991px) {
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
 
-button {
-  mix-blend-mode: screen;
-  -webkit-appearance: none;
-  outline: none;
-  border: 2px solid #fff;
-  background: transparent;
-  color: #fff;
-  padding: 20px 60px;
-  font-size: 2vh;
-  letter-spacing: 0.25vmin;
-  margin: 3vh 0;
-  transition: all 0.2s;
-  opacity: 0.85;
+  .u-section-1 .u-text-1 {
+    font-size: 6rem;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 20px;
+  }
 }
-button:hover {
-  background-color: #fff;
-  color: #000;
+
+@media (max-width: 767px) {
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 479px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 33px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 33px;
+  }
 }
