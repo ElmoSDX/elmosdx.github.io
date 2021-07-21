@@ -5,14 +5,6 @@ body, html {
     height: 100%;
 }
 
-#bg-video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
 .bg-1 {
     background-image: url('../../img/bg/error_pages/bg1.png');
     min-height: 100vh;
@@ -88,26 +80,4 @@ body, html {
 .buttons {
     display: flex;
     flex-direction: row;
-}
-
-.btn-pause {
-    position: relative;
-    width: 55px;
-    padding: 10px 15px;
-    border: 1px solid #ffffff;
-    border-radius: 15px;
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing : 2px;
-    font-size: 11px;
-    transition: all .5s;
-    background-color:rgba(0, 0, 0, 0);
-    margin-left: 20px;
-}
-
-.btn-pause:hover{
-    background-color: #ffffff;
-    color: #000;
 }
