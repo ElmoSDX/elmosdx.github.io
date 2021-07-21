@@ -1,0 +1,53 @@
+@media (max-width: 1199px) {
+    .flex {
+        width: 940px;
+    }
+}
+  
+@media (max-width: 991px) {
+    .flex {
+        width: 720px;
+    }
+}
+  
+@media (max-width: 767px) {
+    .flex {
+        width: 540px;
+    }
+}
+  
+@media (max-width: 575px) {
+    .flex {
+        width: 340px;
+    }
+
+    .btn-go-home {
+        margin: auto;
+    }
+
+    .messageflex {
+        width: 340px;
+    }
+
+    .text-1-error {
+        text-align: center;
+    }
+
+    .text-2-error {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-3-error {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .buttons {
+        margin: 0 auto;
+    }
+
+    .btn-pause {
+        margin-left: 15px;
+    }
+}

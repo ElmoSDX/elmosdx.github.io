@@ -1,12 +1,70 @@
 body, html {
-
-  font-family: 'Ubuntu';
-  background: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 .message {
-	position: relative;
-	text-align: center;
-	top: 40vh;
-	font-size: 25px;
+	display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    min-height: 100vh;
+    justify-content: center;
+    line-height: 25.6px;
+    align-items: center;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.message > h1, p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text-2 {
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+}
+
+.photo {
+	height: 370px;
+    width: 645px;
+    padding-top: 20px;
+}
+
+@media (max-width: 1199px){
+	.message {
+		width: 720px;
+	}
+}
+
+@media (max-width: 991px){
+	.message {
+		width: 720px;
+	}
+}
+
+@media (max-width: 767px){
+	.message {
+		width: 540px;
+	}
+
+	.photo {
+		height: 325px;
+		width: 575px;
+	}
+}
+
+@media (max-width: 575px){
+	.message {
+		width: 340px;
+	}
+
+	.photo {
+		height: 200px;
+		width: 335px;
+	}
 }
