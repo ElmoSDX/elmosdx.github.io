@@ -6,6 +6,29 @@ body, html {
     color: white;
 }
 
+.header {
+	background-image: url(../img/bg/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.message-box {
+	color: white;
+	line-height: 25.6px;
+}
+
+.text-1-1 {
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+.texts-2 {
+	font-weight: lighter;
+
+	font-size: 25px;
+}
+
 .message {
 	display: flex;
     flex-direction: column;
